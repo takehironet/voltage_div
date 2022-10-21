@@ -1,0 +1,12 @@
+[package]
+name = "divide_v"
+version = "0.1.0"
+authors = ["Takehiro Matsushima <takehiro.dreamizm@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+
+[profile.release]
+lto = true
+opt-level = 3
+strip = "symbols"
